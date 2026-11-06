@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Balcony with two chairs at dusk">
+  <defs>
+    <linearGradient id="r5sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4a3e"/>
+      <stop offset="0.5" stop-color="#9a7e54"/>
+      <stop offset="1" stop-color="#c8a16a"/>
+    </linearGradient>
+    <linearGradient id="r5water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#506b5b"/>
+      <stop offset="1" stop-color="#1f2e26"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#r5sky)"/>
+
+  <!-- sun -->
+  <circle cx="700" cy="380" r="80" fill="#f6d58a" opacity="0.85"/>
+
+  <!-- distant ridge -->
+  <path d="M0 540 L160 480 L340 510 L500 460 L680 500 L860 470 L1000 490 L1000 560 L0 560 Z" fill="#1f2e26" opacity="0.55"/>
+
+  <!-- water -->
+  <rect y="560" width="1000" height="380" fill="url(#r5water)"/>
+  <g opacity="0.18" stroke="#f6d58a" stroke-width="1" fill="none">
+    <path d="M0 600 Q500 595 1000 600"/>
+    <path d="M0 660 Q500 655 1000 660"/>
+    <path d="M0 720 Q500 715 1000 720"/>
+    <path d="M0 800 Q500 795 1000 800"/>
+  </g>
+  <!-- sun reflection -->
+  <ellipse cx="700" cy="660" rx="60" ry="120" fill="#f6d58a" opacity="0.25"/>
+
+  <!-- balcony floor -->
+  <rect y="940" width="1000" height="310" fill="#241c14"/>
+  <g stroke="#3a3022" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="980" x2="1000" y2="980"/>
+    <line x1="0" y1="1040" x2="1000" y2="1040"/>
+    <line x1="0" y1="1100" x2="1000" y2="1100"/>
+    <line x1="0" y1="1180" x2="1000" y2="1180"/>
+  </g>
+
+  <!-- railing -->
+  <rect y="900" width="1000" height="14" fill="#b08948"/>
+  <g fill="#1f1810">
+    <rect x="80"  y="780" width="6" height="120"/>
+    <rect x="180" y="780" width="6" height="120"/>
+    <rect x="280" y="780" width="6" height="120"/>
+    <rect x="380" y="780" width="6" height="120"/>
+    <rect x="480" y="780" width="6" height="120"/>
+    <rect x="580" y="780" width="6" height="120"/>
+    <rect x="680" y="780" width="6" height="120"/>
+    <rect x="780" y="780" width="6" height="120"/>
+    <rect x="880" y="780" width="6" height="120"/>
+    <rect x="40" y="780" width="920" height="6"/>
+  </g>
+
+  <!-- two chairs -->
+  <g>
+    <!-- left chair -->
+    <path d="M180 1080 Q180 950 280 950 Q300 1020 280 1100 L180 1100 Z" fill="#dccfaf"/>
+    <rect x="186" y="1080" width="18" height="60" fill="#1f1810"/>
+    <rect x="270" y="1080" width="18" height="60" fill="#1f1810"/>
+    <!-- right chair -->
+    <path d="M620 1080 Q620 950 720 950 Q740 1020 720 1100 L620 1100 Z" fill="#dccfaf"/>
+    <rect x="626" y="1080" width="18" height="60" fill="#1f1810"/>
+    <rect x="710" y="1080" width="18" height="60" fill="#1f1810"/>
+  </g>
+
+  <!-- small table between -->
+  <ellipse cx="450" cy="1110" rx="80" ry="14" fill="#0a120e" opacity="0.5"/>
+  <ellipse cx="450" cy="1080" rx="74" ry="10" fill="#b08948"/>
+  <rect x="442" y="1080" width="16" height="40" fill="#7a5a32"/>
+  <!-- wine glass -->
+  <path d="M438 1050 L462 1050 L456 1075 L444 1075 Z" fill="#7a3030" opacity="0.7" stroke="#fbf6e9" stroke-width="1"/>
+  <line x1="450" y1="1075" x2="450" y2="1085" stroke="#fbf6e9" stroke-width="1"/>
+
+  <!-- planter -->
+  <rect x="900" y="1000" width="60" height="80" fill="#7a5a32"/>
+  <path d="M930 1000 L900 880 L960 880 L930 1000 Z M930 1000 L860 940 L920 900 Z M930 1000 L1000 940 L940 900 Z" fill="#3a4a3e"/>
+</svg>

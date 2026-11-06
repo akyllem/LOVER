@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Reviewer avatar">
+  <rect width="160" height="160" fill="#1f2e26"/>
+  <ellipse cx="80" cy="68" rx="34" ry="40" fill="#dccfaf"/>
+  <path d="M30 160 Q40 110 80 100 Q120 110 130 160 Z" fill="#b08948"/>
+  <path d="M48 50 Q60 28 80 28 Q100 28 112 50 Q100 38 80 38 Q60 38 48 50 Z" fill="#241c14"/>
+</svg>

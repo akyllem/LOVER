@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Dining room with set table and candlelight">
+  <defs>
+    <linearGradient id="dwall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241c14"/>
+      <stop offset="1" stop-color="#16100a"/>
+    </linearGradient>
+    <radialGradient id="candle" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#f6d58a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f6d58a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#dwall)"/>
+
+  <!-- archways behind -->
+  <g fill="#3a3022" opacity="0.8">
+    <path d="M120 200 Q220 100 320 200 L320 700 L120 700 Z"/>
+    <path d="M380 200 Q480 100 580 200 L580 700 L380 700 Z"/>
+    <path d="M640 200 Q740 100 840 200 L840 700 L640 700 Z"/>
+  </g>
+  <g fill="#1f1810">
+    <rect x="120" y="200" width="200" height="500"/>
+    <rect x="380" y="200" width="200" height="500"/>
+    <rect x="640" y="200" width="200" height="500"/>
+  </g>
+  <!-- distant garden views in arches -->
+  <g>
+    <rect x="120" y="400" width="200" height="200" fill="#506b5b" opacity="0.7"/>
+    <rect x="380" y="400" width="200" height="200" fill="#506b5b" opacity="0.7"/>
+    <rect x="640" y="400" width="200" height="200" fill="#506b5b" opacity="0.7"/>
+  </g>
+
+  <!-- pendant lights -->
+  <g>
+    <line x1="220" y1="0" x2="220" y2="280" stroke="#3a3022" stroke-width="2"/>
+    <ellipse cx="220" cy="290" rx="42" ry="18" fill="#b08948"/>
+    <circle cx="220" cy="300" r="20" fill="url(#candle)"/>
+
+    <line x1="500" y1="0" x2="500" y2="240" stroke="#3a3022" stroke-width="2"/>
+    <ellipse cx="500" cy="250" rx="50" ry="22" fill="#b08948"/>
+    <circle cx="500" cy="260" r="26" fill="url(#candle)"/>
+
+    <line x1="780" y1="0" x2="780" y2="280" stroke="#3a3022" stroke-width="2"/>
+    <ellipse cx="780" cy="290" rx="42" ry="18" fill="#b08948"/>
+    <circle cx="780" cy="300" r="20" fill="url(#candle)"/>
+  </g>
+
+  <!-- table -->
+  <ellipse cx="500" cy="1080" rx="500" ry="40" fill="#0a0805" opacity="0.7"/>
+  <rect x="40" y="800" width="920" height="280" fill="#7a5a32"/>
+  <rect x="40" y="800" width="920" height="20" fill="#b08948"/>
+
+  <!-- linen runner -->
+  <rect x="180" y="820" width="640" height="240" fill="#f3ecdd" opacity="0.95"/>
+
+  <!-- plates -->
+  <ellipse cx="320" cy="900" rx="44" ry="10" fill="#dccfaf"/>
+  <ellipse cx="320" cy="892" rx="44" ry="10" fill="#fbf6e9"/>
+  <ellipse cx="320" cy="892" rx="32" ry="7" fill="#dccfaf"/>
+
+  <ellipse cx="500" cy="940" rx="56" ry="14" fill="#dccfaf"/>
+  <ellipse cx="500" cy="930" rx="56" ry="14" fill="#fbf6e9"/>
+  <ellipse cx="500" cy="930" rx="40" ry="10" fill="#dccfaf"/>
+  <!-- food on plate -->
+  <ellipse cx="500" cy="930" rx="22" ry="6" fill="#7a5a32"/>
+  <ellipse cx="496" cy="928" rx="6" ry="3" fill="#506b5b"/>
+
+  <ellipse cx="680" cy="900" rx="44" ry="10" fill="#dccfaf"/>
+  <ellipse cx="680" cy="892" rx="44" ry="10" fill="#fbf6e9"/>
+  <ellipse cx="680" cy="892" rx="32" ry="7" fill="#dccfaf"/>
+
+  <!-- candles centerpiece -->
+  <g>
+    <rect x="494" y="780" width="12" height="40" fill="#fbf6e9"/>
+    <ellipse cx="500" cy="780" rx="6" ry="2" fill="#b08948"/>
+    <ellipse cx="500" cy="772" rx="3" ry="8" fill="#f6d58a"/>
+    <circle cx="500" cy="770" r="22" fill="url(#candle)"/>
+
+    <rect x="406" y="800" width="10" height="32" fill="#fbf6e9"/>
+    <ellipse cx="411" cy="800" rx="5" ry="2" fill="#b08948"/>
+    <ellipse cx="411" cy="794" rx="2" ry="6" fill="#f6d58a"/>
+    <circle cx="411" cy="792" r="14" fill="url(#candle)"/>
+
+    <rect x="584" y="800" width="10" height="32" fill="#fbf6e9"/>
+    <ellipse cx="589" cy="800" rx="5" ry="2" fill="#b08948"/>
+    <ellipse cx="589" cy="794" rx="2" ry="6" fill="#f6d58a"/>
+    <circle cx="589" cy="792" r="14" fill="url(#candle)"/>
+  </g>
+
+  <!-- wine glasses -->
+  <g fill="#7a3030" opacity="0.65" stroke="#fbf6e9" stroke-width="1">
+    <path d="M250 880 L284 880 L278 905 L256 905 Z"/>
+    <line x1="267" y1="905" x2="267" y2="930" stroke-width="1"/>
+    <ellipse cx="267" cy="932" rx="14" ry="3" fill="#fbf6e9" stroke="none" opacity="1"/>
+  </g>
+  <g fill="#7a3030" opacity="0.65" stroke="#fbf6e9" stroke-width="1">
+    <path d="M716 880 L750 880 L744 905 L722 905 Z"/>
+    <line x1="733" y1="905" x2="733" y2="930" stroke-width="1"/>
+    <ellipse cx="733" cy="932" rx="14" ry="3" fill="#fbf6e9" stroke="none" opacity="1"/>
+  </g>
+
+  <!-- chairs (silhouettes back) -->
+  <g fill="#0a0805">
+    <rect x="270" y="1080" width="120" height="100"/>
+    <rect x="610" y="1080" width="120" height="100"/>
+  </g>
+</svg>

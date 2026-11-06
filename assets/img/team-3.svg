@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Portrait placeholder — host">
+  <defs>
+    <linearGradient id="t3bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dccfaf"/>
+      <stop offset="1" stop-color="#9a7e54"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#t3bg)"/>
+  <path d="M120 1000 Q160 750 280 690 L520 690 Q640 750 680 1000 Z" fill="#506b5b"/>
+  <path d="M340 690 L400 790 L460 690 Z" fill="#3a4a3e"/>
+  <rect x="370" y="600" width="60" height="120" fill="#e1c2a0"/>
+  <ellipse cx="400" cy="500" rx="118" ry="160" fill="#e1c2a0"/>
+  <!-- long hair -->
+  <path d="M280 480 Q320 280 400 280 Q480 280 520 480 Q540 660 480 720 L460 660 Q500 540 480 460 Q460 360 400 360 Q340 360 320 460 Q300 540 340 660 L320 720 Q260 660 280 480 Z" fill="#3a2a14"/>
+  <ellipse cx="370" cy="510" rx="6" ry="8" fill="#1f1810" opacity="0.6"/>
+  <ellipse cx="430" cy="510" rx="6" ry="8" fill="#1f1810" opacity="0.6"/>
+  <path d="M376 580 Q400 595 424 580" stroke="#1f1810" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- earring hint -->
+  <circle cx="290" cy="540" r="4" fill="#b08948"/>
+  <circle cx="510" cy="540" r="4" fill="#b08948"/>
+</svg>

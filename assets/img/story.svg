@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Hotel courtyard at golden hour">
+  <defs>
+    <linearGradient id="ssky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4a3e"/>
+      <stop offset="0.6" stop-color="#9a7e54"/>
+      <stop offset="1" stop-color="#dccfaf"/>
+    </linearGradient>
+    <linearGradient id="swall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ecdd"/>
+      <stop offset="1" stop-color="#c8a16a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#ssky)"/>
+
+  <!-- distant ridge -->
+  <path d="M0 460 L300 410 L600 440 L900 400 L1200 430 L1600 410 L1600 500 L0 500 Z" fill="#1f2e26" opacity="0.5"/>
+
+  <!-- left building -->
+  <rect x="0" y="380" width="500" height="440" fill="url(#swall)"/>
+  <polygon points="0,380 500,380 460,310 40,310" fill="#1f2e26"/>
+  <g fill="#1f2e26">
+    <rect x="60" y="430" width="60" height="80"/>
+    <rect x="160" y="430" width="60" height="80"/>
+    <rect x="260" y="430" width="60" height="80"/>
+    <rect x="360" y="430" width="60" height="80"/>
+    <rect x="60" y="560" width="60" height="80"/>
+    <rect x="160" y="560" width="60" height="80"/>
+    <rect x="260" y="560" width="60" height="80"/>
+    <rect x="360" y="560" width="60" height="80"/>
+  </g>
+  <g fill="#f6d58a" opacity="0.8">
+    <rect x="60" y="690" width="60" height="80"/>
+    <rect x="160" y="690" width="60" height="80"/>
+    <rect x="260" y="690" width="60" height="80"/>
+    <rect x="360" y="690" width="60" height="80"/>
+  </g>
+
+  <!-- right building -->
+  <rect x="1100" y="380" width="500" height="440" fill="url(#swall)"/>
+  <polygon points="1100,380 1600,380 1560,310 1140,310" fill="#1f2e26"/>
+  <g fill="#1f2e26">
+    <rect x="1160" y="430" width="60" height="80"/>
+    <rect x="1260" y="430" width="60" height="80"/>
+    <rect x="1360" y="430" width="60" height="80"/>
+    <rect x="1460" y="430" width="60" height="80"/>
+    <rect x="1160" y="560" width="60" height="80"/>
+    <rect x="1260" y="560" width="60" height="80"/>
+    <rect x="1360" y="560" width="60" height="80"/>
+    <rect x="1460" y="560" width="60" height="80"/>
+  </g>
+  <g fill="#f6d58a" opacity="0.8">
+    <rect x="1160" y="690" width="60" height="80"/>
+    <rect x="1260" y="690" width="60" height="80"/>
+    <rect x="1360" y="690" width="60" height="80"/>
+    <rect x="1460" y="690" width="60" height="80"/>
+  </g>
+
+  <!-- central courtyard archway -->
+  <rect x="500" y="430" width="600" height="390" fill="#dccfaf"/>
+  <path d="M620 820 L620 600 Q800 460 980 600 L980 820 Z" fill="#3a4a3e"/>
+  <path d="M620 820 L620 600 Q800 460 980 600 L980 820 Z" fill="none" stroke="#1f2e26" stroke-width="6"/>
+  <!-- light glow through arch -->
+  <ellipse cx="800" cy="780" rx="180" ry="40" fill="#f6d58a" opacity="0.5"/>
+
+  <!-- foreground stone path -->
+  <rect y="820" width="1600" height="80" fill="#7a5a32"/>
+  <g stroke="#3a3022" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="850" x2="1600" y2="850"/>
+    <line x1="0" y1="880" x2="1600" y2="880"/>
+  </g>
+
+  <!-- olive trees -->
+  <g>
+    <rect x="650" y="780" width="14" height="50" fill="#3a3022"/>
+    <ellipse cx="657" cy="770" rx="60" ry="44" fill="#506b5b"/>
+    <rect x="940" y="780" width="14" height="50" fill="#3a3022"/>
+    <ellipse cx="947" cy="770" rx="60" ry="44" fill="#506b5b"/>
+  </g>
+
+  <!-- lantern lights along path -->
+  <g>
+    <rect x="540" y="780" width="3" height="60" fill="#1f1810"/>
+    <circle cx="541" cy="776" r="6" fill="#f6d58a"/>
+    <rect x="1054" y="780" width="3" height="60" fill="#1f1810"/>
+    <circle cx="1055" cy="776" r="6" fill="#f6d58a"/>
+  </g>
+</svg>

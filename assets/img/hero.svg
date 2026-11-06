@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Talasea hotel exterior at golden hour">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4a3e"/>
+      <stop offset="0.45" stop-color="#5d6e54"/>
+      <stop offset="0.78" stop-color="#c8a16a"/>
+      <stop offset="1" stop-color="#d8b27a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3d33"/>
+      <stop offset="1" stop-color="#1a261f"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ecdd"/>
+      <stop offset="1" stop-color="#d8c9a8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.7" cy="0.32" r="0.18">
+      <stop offset="0" stop-color="#f6d58a" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f6d58a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grain" width="160" height="160" patternUnits="userSpaceOnUse">
+      <filter id="ng"><feTurbulence baseFrequency="0.95" numOctaves="2"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.32 0"/></filter>
+      <rect width="160" height="160" filter="url(#ng)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#sky)"/>
+  <circle cx="840" cy="490" r="260" fill="url(#sun)"/>
+
+  <!-- distant ridges -->
+  <path d="M0 880 L120 820 L260 850 L420 800 L600 830 L760 790 L920 810 L1080 770 L1200 800 L1200 880 Z" fill="#1f2e26" opacity="0.55"/>
+  <path d="M0 920 L160 880 L320 900 L520 860 L720 880 L900 850 L1080 870 L1200 850 L1200 950 L0 950 Z" fill="#16231d" opacity="0.7"/>
+
+  <!-- water -->
+  <rect y="950" width="1200" height="320" fill="url(#water)"/>
+  <g opacity="0.18" stroke="#f3ecdd" stroke-width="1" fill="none">
+    <path d="M0 990 Q300 985 600 992 T1200 990"/>
+    <path d="M0 1040 Q260 1035 520 1042 T1200 1040"/>
+    <path d="M0 1100 Q260 1095 520 1102 T1200 1100"/>
+    <path d="M0 1160 Q260 1155 520 1162 T1200 1160"/>
+    <path d="M0 1220 Q260 1215 520 1222 T1200 1220"/>
+  </g>
+
+  <!-- foreground cliff/plateau -->
+  <path d="M0 1270 L1200 1240 L1200 1500 L0 1500 Z" fill="#0e1612"/>
+
+  <!-- main building -->
+  <g>
+    <rect x="380" y="700" width="440" height="280" fill="url(#building)"/>
+    <rect x="380" y="700" width="440" height="14" fill="#b08948"/>
+    <!-- roof -->
+    <polygon points="370,700 600,640 830,700" fill="#1f2e26"/>
+    <!-- windows row 1 -->
+    <g fill="#1f2e26">
+      <rect x="410" y="740" width="44" height="64"/>
+      <rect x="476" y="740" width="44" height="64"/>
+      <rect x="542" y="740" width="44" height="64"/>
+      <rect x="608" y="740" width="44" height="64"/>
+      <rect x="674" y="740" width="44" height="64"/>
+      <rect x="740" y="740" width="44" height="64"/>
+    </g>
+    <!-- glow windows row 2 -->
+    <g fill="#f6d58a" opacity="0.85">
+      <rect x="410" y="830" width="44" height="64"/>
+      <rect x="476" y="830" width="44" height="64"/>
+      <rect x="542" y="830" width="44" height="64"/>
+      <rect x="608" y="830" width="44" height="64"/>
+      <rect x="674" y="830" width="44" height="64"/>
+      <rect x="740" y="830" width="44" height="64"/>
+    </g>
+    <!-- entrance -->
+    <rect x="572" y="900" width="56" height="80" fill="#1f2e26"/>
+    <circle cx="600" cy="970" r="2" fill="#b08948"/>
+  </g>
+
+  <!-- side wings -->
+  <rect x="280" y="780" width="100" height="200" fill="#e0d4bb"/>
+  <rect x="820" y="780" width="100" height="200" fill="#e0d4bb"/>
+  <g fill="#1f2e26">
+    <rect x="296" y="810" width="22" height="36"/>
+    <rect x="328" y="810" width="22" height="36"/>
+    <rect x="296" y="870" width="22" height="36"/>
+    <rect x="328" y="870" width="22" height="36"/>
+    <rect x="848" y="810" width="22" height="36"/>
+    <rect x="880" y="810" width="22" height="36"/>
+    <rect x="848" y="870" width="22" height="36"/>
+    <rect x="880" y="870" width="22" height="36"/>
+  </g>
+
+  <!-- foreground trees -->
+  <g fill="#0a120e">
+    <path d="M120 1200 Q140 1080 160 1200 Z"/>
+    <path d="M180 1180 Q205 1060 230 1180 Z"/>
+    <path d="M1000 1190 Q1024 1080 1048 1190 Z"/>
+    <path d="M1060 1210 Q1085 1090 1110 1210 Z"/>
+  </g>
+
+  <!-- path -->
+  <path d="M580 1000 Q540 1140 460 1290 L740 1290 Q660 1140 620 1000 Z" fill="#1f2e26" opacity="0.6"/>
+
+  <rect width="1200" height="1500" fill="url(#grain)" opacity="0.5"/>
+</svg>

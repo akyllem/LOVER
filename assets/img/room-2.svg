@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Stone bath with view, soft light">
+  <defs>
+    <linearGradient id="r2wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2e26"/>
+      <stop offset="1" stop-color="#16231d"/>
+    </linearGradient>
+    <linearGradient id="r2win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8a16a"/>
+      <stop offset="1" stop-color="#9a7e54"/>
+    </linearGradient>
+    <linearGradient id="r2tub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ecdd"/>
+      <stop offset="1" stop-color="#d4c5a3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1250" fill="url(#r2wall)"/>
+
+  <!-- arch window -->
+  <path d="M250 100 Q500 -40 750 100 L750 700 L250 700 Z" fill="url(#r2win)"/>
+  <path d="M250 100 Q500 -40 750 100 L750 700 L250 700 Z" fill="none" stroke="#0e1612" stroke-width="8"/>
+  <line x1="500" y1="40" x2="500" y2="700" stroke="#0e1612" stroke-width="6"/>
+  <line x1="250" y1="380" x2="750" y2="380" stroke="#0e1612" stroke-width="6"/>
+
+  <!-- distant horizon hills -->
+  <path d="M250 540 Q360 510 500 530 Q640 510 750 540 L750 700 L250 700 Z" fill="#1f2e26" opacity="0.6"/>
+
+  <!-- light spill on floor -->
+  <polygon points="250,700 750,700 850,1100 150,1100" fill="#c8a16a" opacity="0.18"/>
+
+  <!-- floor -->
+  <rect y="900" width="1000" height="350" fill="#0e1612"/>
+  <g opacity="0.3" stroke="#506b5b" stroke-width="1">
+    <line x1="0" y1="980" x2="1000" y2="980"/>
+    <line x1="0" y1="1060" x2="1000" y2="1060"/>
+    <line x1="0" y1="1140" x2="1000" y2="1140"/>
+  </g>
+
+  <!-- stone bath -->
+  <ellipse cx="500" cy="1080" rx="320" ry="40" fill="#0a120e" opacity="0.6"/>
+  <rect x="200" y="850" width="600" height="220" rx="32" fill="url(#r2tub)"/>
+  <rect x="220" y="870" width="560" height="180" rx="22" fill="#1f2e26"/>
+  <!-- water surface -->
+  <ellipse cx="500" cy="900" rx="280" ry="22" fill="#506b5b"/>
+  <g opacity="0.55" stroke="#cfe1d2" stroke-width="1.4" fill="none">
+    <ellipse cx="380" cy="900" rx="28" ry="3"/>
+    <ellipse cx="500" cy="906" rx="40" ry="3.5"/>
+    <ellipse cx="620" cy="900" rx="32" ry="3"/>
+  </g>
+
+  <!-- towel stack -->
+  <rect x="80" y="970" width="120" height="14" fill="#f3ecdd"/>
+  <rect x="80" y="990" width="120" height="14" fill="#dccfaf"/>
+  <rect x="80" y="1010" width="120" height="14" fill="#f3ecdd"/>
+
+  <!-- sconce -->
+  <rect x="120" y="380" width="14" height="120" fill="#b08948"/>
+  <ellipse cx="127" cy="380" rx="34" ry="14" fill="#f6d58a" opacity="0.7"/>
+
+  <!-- plant -->
+  <rect x="820" y="940" width="70" height="100" fill="#506b5b"/>
+  <path d="M855 940 L820 800 L890 800 L855 940 Z M855 940 L770 870 L830 820 Z M855 940 L940 870 L880 820 Z" fill="#3a4a3e"/>
+</svg>

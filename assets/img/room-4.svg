@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Suite living area with sofa and ocean view">
+  <defs>
+    <linearGradient id="r4wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5eddb"/>
+      <stop offset="1" stop-color="#dccfaf"/>
+    </linearGradient>
+    <linearGradient id="r4win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8d3c3"/>
+      <stop offset="0.6" stop-color="#9bb6a3"/>
+      <stop offset="1" stop-color="#506b5b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#r4wall)"/>
+  <rect y="900" width="1000" height="350" fill="#3a3022"/>
+
+  <!-- floor pattern -->
+  <g opacity="0.25" stroke="#1f1810" stroke-width="1">
+    <line x1="0" y1="950" x2="1000" y2="950"/>
+    <line x1="0" y1="1020" x2="1000" y2="1020"/>
+    <line x1="0" y1="1090" x2="1000" y2="1090"/>
+    <line x1="0" y1="1160" x2="1000" y2="1160"/>
+  </g>
+
+  <!-- floor-to-ceiling window -->
+  <rect x="120" y="60" width="760" height="780" fill="url(#r4win)"/>
+  <rect x="120" y="60" width="760" height="780" fill="none" stroke="#1f2e26" stroke-width="6"/>
+  <line x1="500" y1="60" x2="500" y2="840" stroke="#1f2e26" stroke-width="6"/>
+
+  <!-- horizon -->
+  <line x1="120" y1="540" x2="880" y2="540" stroke="#506b5b" stroke-width="1" opacity="0.5"/>
+  <!-- distant boats -->
+  <path d="M260 530 L290 530 L284 540 L266 540 Z" fill="#1f2e26" opacity="0.6"/>
+  <path d="M620 525 L660 525 L654 538 L626 538 Z" fill="#1f2e26" opacity="0.6"/>
+  <line x1="275" y1="500" x2="275" y2="528" stroke="#1f2e26" opacity="0.6"/>
+  <line x1="640" y1="490" x2="640" y2="525" stroke="#1f2e26" opacity="0.6"/>
+
+  <!-- distant land -->
+  <path d="M120 580 Q280 560 440 580 Q600 558 760 580 L880 580 L880 620 L120 620 Z" fill="#1f2e26" opacity="0.45"/>
+
+  <!-- sofa -->
+  <rect x="180" y="780" width="640" height="160" rx="14" fill="#506b5b"/>
+  <rect x="180" y="760" width="640" height="40" rx="14" fill="#3a4a3e"/>
+  <!-- cushions -->
+  <rect x="200" y="760" width="180" height="84" rx="10" fill="#b08948"/>
+  <rect x="410" y="760" width="180" height="84" rx="10" fill="#dccfaf"/>
+  <rect x="620" y="760" width="180" height="84" rx="10" fill="#b08948"/>
+  <!-- legs -->
+  <rect x="190" y="940" width="14" height="20" fill="#1f1810"/>
+  <rect x="796" y="940" width="14" height="20" fill="#1f1810"/>
+
+  <!-- coffee table -->
+  <ellipse cx="500" cy="1100" rx="240" ry="40" fill="#1f1810" opacity="0.5"/>
+  <ellipse cx="500" cy="1080" rx="220" ry="34" fill="#7a5a32"/>
+  <ellipse cx="500" cy="1075" rx="220" ry="6" fill="#b08948"/>
+  <!-- vase on table -->
+  <ellipse cx="500" cy="1075" rx="22" ry="6" fill="#1f1810"/>
+  <path d="M482 1075 Q478 1020 500 1010 Q522 1020 518 1075 Z" fill="#506b5b"/>
+  <path d="M500 1010 L500 970 M488 990 L508 985 M512 995 L494 1000" stroke="#3a4a3e" stroke-width="2" fill="none"/>
+
+  <!-- wall art -->
+  <rect x="120" y="940" width="60" height="160" fill="#1f1810"/>
+  <rect x="820" y="940" width="60" height="160" fill="#1f1810"/>
+</svg>

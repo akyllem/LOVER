@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Garden cottage with stone path among olive trees">
+  <defs>
+    <linearGradient id="r6sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dccfaf"/>
+      <stop offset="1" stop-color="#f3ecdd"/>
+    </linearGradient>
+    <linearGradient id="r6cot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ecdd"/>
+      <stop offset="1" stop-color="#dccfaf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#r6sky)"/>
+  <rect y="940" width="1000" height="310" fill="#7a8a6e"/>
+
+  <!-- distant olive trees -->
+  <g fill="#506b5b" opacity="0.6">
+    <ellipse cx="120" cy="700" rx="60" ry="100"/>
+    <ellipse cx="220" cy="720" rx="80" ry="120"/>
+    <ellipse cx="900" cy="710" rx="80" ry="120"/>
+    <ellipse cx="780" cy="730" rx="60" ry="100"/>
+  </g>
+
+  <!-- cottage -->
+  <g>
+    <!-- chimney -->
+    <rect x="640" y="500" width="40" height="80" fill="#b08948"/>
+    <!-- roof -->
+    <polygon points="350,560 720,560 535,440" fill="#1f2e26"/>
+    <polygon points="350,560 720,560 535,440" fill="none" stroke="#0e1612" stroke-width="2"/>
+    <!-- body -->
+    <rect x="360" y="560" width="350" height="320" fill="url(#r6cot)"/>
+    <!-- door -->
+    <rect x="500" y="720" width="70" height="160" fill="#7a5a32"/>
+    <rect x="500" y="720" width="70" height="160" fill="none" stroke="#3a3022" stroke-width="2"/>
+    <circle cx="557" cy="800" r="3" fill="#b08948"/>
+    <!-- windows -->
+    <rect x="400" y="630" width="60" height="80" fill="#506b5b"/>
+    <rect x="400" y="630" width="60" height="80" fill="none" stroke="#1f1810" stroke-width="3"/>
+    <line x1="430" y1="630" x2="430" y2="710" stroke="#1f1810" stroke-width="3"/>
+    <line x1="400" y1="670" x2="460" y2="670" stroke="#1f1810" stroke-width="3"/>
+    <rect x="610" y="630" width="60" height="80" fill="#506b5b"/>
+    <rect x="610" y="630" width="60" height="80" fill="none" stroke="#1f1810" stroke-width="3"/>
+    <line x1="640" y1="630" x2="640" y2="710" stroke="#1f1810" stroke-width="3"/>
+    <line x1="610" y1="670" x2="670" y2="670" stroke="#1f1810" stroke-width="3"/>
+    <!-- shutters -->
+    <rect x="380" y="630" width="20" height="80" fill="#506b5b"/>
+    <rect x="460" y="630" width="20" height="80" fill="#506b5b"/>
+    <rect x="590" y="630" width="20" height="80" fill="#506b5b"/>
+    <rect x="670" y="630" width="20" height="80" fill="#506b5b"/>
+    <!-- vine -->
+    <path d="M360 880 Q380 800 400 750 Q420 700 460 720" stroke="#3a4a3e" stroke-width="3" fill="none"/>
+    <circle cx="395" cy="780" r="6" fill="#7a5a32"/>
+    <circle cx="430" cy="745" r="6" fill="#7a5a32"/>
+  </g>
+
+  <!-- foreground stone path -->
+  <g fill="#dccfaf" stroke="#1f1810" stroke-width="1">
+    <ellipse cx="535" cy="900" rx="40" ry="14"/>
+    <ellipse cx="500" cy="950" rx="44" ry="14"/>
+    <ellipse cx="560" cy="990" rx="40" ry="14"/>
+    <ellipse cx="520" cy="1040" rx="48" ry="14"/>
+    <ellipse cx="570" cy="1090" rx="44" ry="14"/>
+    <ellipse cx="510" cy="1150" rx="48" ry="14"/>
+  </g>
+
+  <!-- olive trees foreground -->
+  <g>
+    <rect x="180" y="900" width="14" height="120" fill="#3a3022"/>
+    <ellipse cx="187" cy="880" rx="80" ry="60" fill="#506b5b"/>
+    <ellipse cx="200" cy="850" rx="60" ry="46" fill="#3a4a3e"/>
+    <rect x="800" y="900" width="14" height="120" fill="#3a3022"/>
+    <ellipse cx="807" cy="880" rx="80" ry="60" fill="#506b5b"/>
+    <ellipse cx="794" cy="850" rx="60" ry="46" fill="#3a4a3e"/>
+  </g>
+
+  <!-- lavender bunches -->
+  <g fill="#7a6b8e" opacity="0.85">
+    <ellipse cx="280" cy="980" rx="40" ry="12"/>
+    <ellipse cx="340" cy="1010" rx="36" ry="12"/>
+    <ellipse cx="700" cy="990" rx="40" ry="12"/>
+    <ellipse cx="760" cy="1020" rx="36" ry="12"/>
+  </g>
+</svg>

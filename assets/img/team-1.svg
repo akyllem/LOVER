@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Portrait placeholder — founder">
+  <defs>
+    <linearGradient id="t1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#506b5b"/>
+      <stop offset="1" stop-color="#1f2e26"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#t1bg)"/>
+  <!-- shoulders -->
+  <path d="M120 1000 Q160 760 280 700 L520 700 Q640 760 680 1000 Z" fill="#dccfaf"/>
+  <!-- collar -->
+  <path d="M340 700 L400 800 L460 700 Z" fill="#1f2e26"/>
+  <!-- neck -->
+  <rect x="370" y="600" width="60" height="120" fill="#e9d4af"/>
+  <!-- face -->
+  <ellipse cx="400" cy="500" rx="120" ry="160" fill="#e9d4af"/>
+  <!-- hair -->
+  <path d="M280 460 Q320 280 400 280 Q480 280 520 460 Q500 360 400 360 Q300 360 280 460 Z" fill="#241c14"/>
+  <path d="M280 460 Q300 380 360 360 L360 480 Q320 520 280 540 Z" fill="#241c14"/>
+  <!-- features (suggested) -->
+  <ellipse cx="370" cy="510" rx="6" ry="8" fill="#1f1810" opacity="0.6"/>
+  <ellipse cx="430" cy="510" rx="6" ry="8" fill="#1f1810" opacity="0.6"/>
+  <path d="M380 580 Q400 595 420 580" stroke="#1f1810" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>

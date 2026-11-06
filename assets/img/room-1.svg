@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Suite bedroom with linen bed and morning light">
+  <defs>
+    <linearGradient id="rwall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe8d6"/>
+      <stop offset="1" stop-color="#d4c5a3"/>
+    </linearGradient>
+    <linearGradient id="rwin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8d3c3"/>
+      <stop offset="1" stop-color="#a3b69d"/>
+    </linearGradient>
+    <linearGradient id="rfloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3022"/>
+      <stop offset="1" stop-color="#241c14"/>
+    </linearGradient>
+    <linearGradient id="bed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f2e3"/>
+      <stop offset="1" stop-color="#dccfaf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1250" fill="url(#rwall)"/>
+  <rect y="900" width="1000" height="350" fill="url(#rfloor)"/>
+
+  <!-- window -->
+  <rect x="60" y="80" width="380" height="540" fill="url(#rwin)" stroke="#1f2e26" stroke-width="6"/>
+  <line x1="250" y1="80" x2="250" y2="620" stroke="#1f2e26" stroke-width="6"/>
+  <line x1="60" y1="350" x2="440" y2="350" stroke="#1f2e26" stroke-width="6"/>
+  <!-- light beam -->
+  <polygon points="60,80 440,80 760,900 360,900" fill="#f6e9c3" opacity="0.18"/>
+
+  <!-- linen curtain -->
+  <path d="M40 80 Q70 400 60 620 L100 620 Q90 400 96 80 Z" fill="#f3ecdd" opacity="0.85"/>
+  <path d="M440 80 Q426 400 432 620 L470 620 Q464 400 458 80 Z" fill="#f3ecdd" opacity="0.85"/>
+
+  <!-- bed -->
+  <rect x="540" y="700" width="420" height="240" fill="url(#bed)"/>
+  <rect x="540" y="700" width="420" height="36" fill="#b08948"/>
+  <rect x="500" y="940" width="500" height="32" fill="#1f2e26"/>
+  <!-- pillows -->
+  <rect x="560" y="680" width="160" height="52" rx="14" fill="#fbf6e9"/>
+  <rect x="740" y="680" width="160" height="52" rx="14" fill="#fbf6e9"/>
+  <!-- throw -->
+  <rect x="560" y="860" width="380" height="80" fill="#506b5b"/>
+
+  <!-- side table -->
+  <rect x="460" y="800" width="60" height="140" fill="#1f2e26"/>
+  <rect x="450" y="790" width="80" height="14" fill="#b08948"/>
+  <!-- lamp -->
+  <rect x="476" y="720" width="28" height="80" fill="#1f2e26"/>
+  <ellipse cx="490" cy="710" rx="34" ry="20" fill="#f6d58a" opacity="0.9"/>
+
+  <!-- art frame -->
+  <rect x="600" y="280" width="280" height="340" fill="#1f2e26"/>
+  <rect x="616" y="296" width="248" height="308" fill="#506b5b"/>
+  <circle cx="740" cy="450" r="60" fill="#b08948" opacity="0.4"/>
+  <path d="M620 580 Q740 520 860 580 L860 600 L620 600 Z" fill="#1f2e26" opacity="0.4"/>
+
+  <!-- rug -->
+  <rect x="440" y="980" width="540" height="180" fill="#7a5a32" opacity="0.5"/>
+</svg>
