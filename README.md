@@ -9,7 +9,6 @@ A four-page, editorial HTML template for boutique hotels, small inns, and quiet 
 | `index.html` | Home â€” cinematic hero, marquee, intro with drop-cap, room bento, dining feature, location, voices, press, CTA |
 | `our-little-nest.html` | Six-category room catalog with editorial alternating layout, amenities band, CTA |
 | `our-love-story.html` | About â€” long-form narrative, team grid, three values, CTA |
-| `love-note.html` | Booking inquiry form, direct lines, hand-drawn SVG bay map |
 
 ## Quick start
 

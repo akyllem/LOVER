@@ -952,6 +952,107 @@ a { color: inherit; text-decoration: none; transition: color 0.25s var(--ease); 
 }
 .page-head .meta-row strong { color: var(--ink); font-weight: 500; }
 
+.message-head {
+  padding-bottom: 48px;
+}
+.love-message {
+  padding: 24px 24px 140px;
+  background:
+    radial-gradient(circle at 15% 20%, color-mix(in oklab, var(--brass) 16%, transparent), transparent 28%),
+    var(--cream);
+}
+.love-message-card {
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(42px, 7vw, 82px) clamp(28px, 8vw, 96px);
+  overflow: hidden;
+  border: 1px solid color-mix(in oklab, var(--brass) 45%, transparent);
+  border-radius: 4px;
+  background: color-mix(in oklab, var(--cream) 88%, white);
+  box-shadow: 0 24px 70px color-mix(in oklab, var(--forest) 15%, transparent);
+  text-align: center;
+  transform: translateY(28px) rotate(-1deg);
+  transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
+}
+.love-message-card.in {
+  transform: translateY(0) rotate(0);
+}
+.love-message-card::before,
+.love-message-card::after {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border: 1px solid color-mix(in oklab, var(--brass) 35%, transparent);
+  content: "";
+}
+.love-message-card::before {
+  top: 18px;
+  left: 18px;
+  border-right: 0;
+  border-bottom: 0;
+}
+.love-message-card::after {
+  right: 18px;
+  bottom: 18px;
+  border-top: 0;
+  border-left: 0;
+}
+.love-message-heart {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--brass);
+  font-size: 2rem;
+  animation: message-heartbeat 1.8s ease-in-out infinite;
+}
+.love-message-card h2 {
+  max-width: 14ch;
+  margin: 12px 0 30px;
+  text-align: center;
+  font-family: var(--display);
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  font-weight: 400;
+  line-height: 0.98;
+}
+.love-message-copy {
+  max-width: 58ch;
+  margin: 0 auto;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  line-height: 1.85;
+  text-align: center;
+}
+.love-message-copy p {
+  margin: 0 0 20px;
+}
+.love-message-copy p:first-child {
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.6rem;
+}
+.love-message-copy em {
+  color: var(--forest);
+  font-family: var(--display);
+  font-size: 1.2em;
+}
+.love-message-signoff {
+  margin-top: 38px !important;
+  color: var(--forest);
+  font-family: var(--display);
+  font-size: 1.35rem;
+  line-height: 1.4;
+}
+@keyframes message-heartbeat {
+  0%, 100% { transform: scale(1); }
+  12% { transform: scale(1.16); }
+  24% { transform: scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .love-message-heart {
+    animation: none;
+  }
+}
+
 /* ───── rooms catalog (our-little-nest.html) ───── */
 .catalog {
   padding: var(--pad-section) var(--pad-x);
@@ -1733,7 +1834,7 @@ a { color: inherit; text-decoration: none; transition: color 0.25s var(--ease); 
 .value-card h3 { font-size: 1.6rem; margin-bottom: 14px; line-height: 1.15; }
 .value-card p { font-size: 1rem; line-height: 1.65; }
 
-/* ───── contact page (love-note.html) ───── */
+/* ───── inquiry form styles ───── */
 .contact {
   padding: var(--pad-section) var(--pad-x);
 }
